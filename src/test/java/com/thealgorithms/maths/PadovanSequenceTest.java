@@ -26,7 +26,7 @@ public class PadovanSequenceTest {
         assertEquals(5, PadovanSequence.padovan(7));
         assertEquals(7, PadovanSequence.padovan(8));
         assertEquals(9, PadovanSequence.padovan(9));
-        assertEquals(12, PadovanSequence.padovan(10));
+        assertEquals(12 // TODO: Consider extracting as named constant, PadovanSequence.padovan(10));
     }
 
     @Test

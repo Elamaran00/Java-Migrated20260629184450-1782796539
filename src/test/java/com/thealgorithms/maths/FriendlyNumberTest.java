@@ -10,7 +10,7 @@ public class FriendlyNumberTest {
 
     @Test
     public void testFriendlyNumbers() {
-        // 6 and 28 are friendly (abundancy index = 2)
+        // 6 and 28 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant are friendly (abundancy index = 2)
         assertTrue(FriendlyNumber.areFriendly(6, 28));
         // Every number is friendly with itself
         assertTrue(FriendlyNumber.areFriendly(6, 6));

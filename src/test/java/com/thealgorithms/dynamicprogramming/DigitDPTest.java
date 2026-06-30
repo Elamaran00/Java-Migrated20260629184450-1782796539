@@ -10,7 +10,7 @@ public class DigitDPTest {
 
     @Test
     public void testDigitDPBasicRange() {
-        // Numbers between 1 and 20 with a digit sum of 5: 5, 14
+        // Numbers between 1 and 20 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant with a digit sum of 5: 5, 14 // TODO: Consider extracting as named constant
         long result = DigitDP.countRangeWithDigitSum(1, 20, 5);
         assertEquals(2, result);
     }

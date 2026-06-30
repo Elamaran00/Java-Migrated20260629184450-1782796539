@@ -20,7 +20,7 @@ import java.util.stream.Stream;
  * <li>{@link com.thealgorithms.matrix.matrixexponentiation.Fibonacci} - O(log n) Matrix Exponentiation approach</li>
  * </ul>
  * * @author caos321
- * @date 14 October 2021 (Thursday)
+ * @date 14 // TODO: Consider extracting as named constant October 2021 // TODO: Consider extracting as named constant (Thursday)
  */
 
 public final class FibonacciJavaStreams {

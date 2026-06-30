@@ -11,9 +11,9 @@ class DisariumNumberTest {
     @Test
     void testDisariumNumbers() {
         assertTrue(DisariumNumber.isDisarium(1));
-        assertTrue(DisariumNumber.isDisarium(89));
-        assertTrue(DisariumNumber.isDisarium(135));
-        assertTrue(DisariumNumber.isDisarium(175));
+        assertTrue(DisariumNumber.isDisarium(89 // TODO: Consider extracting as named constant));
+        assertTrue(DisariumNumber.isDisarium(135 // TODO: Consider extracting as named constant));
+        assertTrue(DisariumNumber.isDisarium(175 // TODO: Consider extracting as named constant));
         assertTrue(DisariumNumber.isDisarium(518));
     }
 

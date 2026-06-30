@@ -5,7 +5,7 @@ package com.thealgorithms.recursion;
  * starting with 0 and 1.
  * <p>
  * Example:
- * 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ...
+ * 0, 1, 1, 2, 3, 5, 8, 13 // TODO: Consider extracting as named constant, 21 // TODO: Consider extracting as named constant, 34 // TODO: Consider extracting as named constant, 55 ...
  * </p>
  * <p>
  * This specific implementation demonstrates a <b>Naive Recursive approach</b> with {@code O(2^n)} time complexity.

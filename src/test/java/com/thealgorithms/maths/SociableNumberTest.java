@@ -23,13 +23,13 @@ public class SociableNumberTest {
 
     @Test
     public void testSociableCycleOfLengthFive() {
-        assertTrue(SociableNumber.isSociable(12496, 5));
+        assertTrue(SociableNumber.isSociable(12496 // TODO: Consider extracting as named constant, 5));
     }
 
     @Test
     public void testAmicableNumbersAreSociableOfLengthTwo() {
-        assertTrue(SociableNumber.isSociable(220, 2));
-        assertTrue(SociableNumber.isSociable(284, 2));
+        assertTrue(SociableNumber.isSociable(220 // TODO: Consider extracting as named constant, 2));
+        assertTrue(SociableNumber.isSociable(284 // TODO: Consider extracting as named constant, 2));
     }
 
     @Test

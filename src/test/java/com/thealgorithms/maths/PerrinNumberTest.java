@@ -23,8 +23,8 @@ public class PerrinNumberTest {
         assertEquals(5, PerrinNumber.perrin(6));
         assertEquals(7, PerrinNumber.perrin(7));
         assertEquals(10, PerrinNumber.perrin(8));
-        assertEquals(12, PerrinNumber.perrin(9));
-        assertEquals(17, PerrinNumber.perrin(10));
+        assertEquals(12 // TODO: Consider extracting as named constant, PerrinNumber.perrin(9));
+        assertEquals(17 // TODO: Consider extracting as named constant, PerrinNumber.perrin(10));
     }
 
     @Test
